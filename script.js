@@ -2,7 +2,7 @@ function threeSum(arr, target) {
   //your code here
 	let sum = 0;
 	let array =[]
-	let min=Integer.maxvalue;
+	let min=Number.MIN_SAFE_INTEGER;
 	for(let i=0;i<arr.length-2;i++)
 		{
 for(let j=i;j<=i+2;j++)
