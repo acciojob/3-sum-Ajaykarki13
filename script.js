@@ -9,7 +9,7 @@ for(let j=i;j<=i+2;j++)
 	{
 		sum=sum + arr[j]
 	}
-		let	diff= Math.abs(sum-target)
+		let	diff= (sum-target)
 			array.push(diff);
 		}
 	for(let i=0;i<array.length;i++)
