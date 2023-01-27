@@ -5,7 +5,7 @@ function threeSum(arr, x) {
     // To store the closest sum
    // not using INT_MAX to avoid
    // overflowing condition
-    let closestSum = Integer.MAX_VALUE;
+    let closestSum = Number.MAX_VALUE;
  
     // Fix the smallest number among
     // the three integers
@@ -25,7 +25,7 @@ function threeSum(arr, x) {
  
             // If the sum is more closer than
             // the current closest sum
-            if (Math.abs(x - sum) < Math.abs(x - closestSum))
+            if (Math.abs(1*x - sum) < Math.abs(1*x - closestSum))
             {
                 closestSum = sum;
             }
