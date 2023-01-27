@@ -16,7 +16,7 @@ for(let j=i;j<=i+2;j++)
 		{
 			min = Math.min(array[i],min)
 		}
-	return min;
+	return target+min;
 }
 
 module.exports = threeSum;
